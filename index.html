@@ -1,17 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-  </head>
-  <body>
-    <canvas id = "bg"></canvas>
-    <div id="app"></div>
-    <script type="module" src="/main.js"></script>
-    <script>
-      console.log(gridlist);
-    </script>
-  </body>
+<html>
+<head>
+    <style>
+    
+
+
+  .button {
+  border: none;
+  width: 133px; 
+  height: 30px;
+  position: absolute; 
+  color: rgb(35, 35, 35);  
+  border-radius: 44px; 
+  font-size: 24px; font-family: 
+  Inter; font-weight: 400; 
+  
+  transition-duration: 0.4s;
+  cursor: pointer;
+  }
+
+
+
+
+
+
+.button:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+    </style>
+</head>
+
+<body>
+  <div class="Desktop1" style="width: 1440px; height: 1024px; position: relative; background: #C1B9B9">
+    <div class="Rectangle18" style="width: 123px; height: 1024px; left: 0px; top: 0px; position: absolute; background: #9FBFA0"></div>
+    <div class="Rectangle19" style="width: 1440px; height: 108px; left: 0px; top: 0px; position: absolute; background: #9FBFA0"></div>
+    <div class="Rectangle20" style="width: 193px; height: 960px; left: 88px; top: 64px; position: absolute; background: #D9D9D9"></div>
+    <div class="Rectangle21" style="width: 1352px; height: 105px; left: 88px; top: 50px; position: absolute; background: #D9D9D9"></div>
+    <div class="Rectangle22" style="width: 565px; height: 735px; left: 813px; top: 219px; position: absolute; background: #9FBFA0; border: 0.50px black solid"></div>
+    <div class="Rectangle23" style="width: 513px; height: 682px; left: 839px; top: 234px; position: absolute; border: 0.50px black solid"></div>
+    <div class="Rectangle24" style="width: 694px; height: 121px; left: 402px; top: 71px; position: absolute; background: #D9D9D9"></div>
+    <div class="Rectangle25" style="width: 648px; height: 81px; left: 427px; top: 90px; position: absolute; background: #9FBFA0; border: 0.50px black solid"></div>
+    <div class="DGameOfLifeSimulation" style="width: 523px; height: 46px; left: 494px; top: 103px; position: absolute; color: black; font-size: 40px; font-family: Inter; font-weight: 400; word-wrap: break-word">3D Game Of Life simulation</div>
+    <div class="Rectangle26" style="width: 465px; height: 81px; left: 234px; top: 294px; position: absolute; background: #D9D9D9; border-radius: 44px"></div>
+    <div class="Rectangle28" style="width: 465px; height: 81px; left: 234px; top: 825px; position: absolute; background: #D9D9D9; border-radius: 44px"></div>
+    <div class="Rectangle29" style="width: 465px; height: 81px; left: 234px; top: 648px; position: absolute; background: #D9D9D9; border-radius: 44px"></div>
+    <div class="Rectangle30" style="width: 465px; height: 81px; left: 234px; top: 471px; position: absolute; background: #D9D9D9; border-radius: 44px"></div>
+    <div class="Rectangle31" style="width: 241px; height: 42px; left: 330px; top: 317px; position: absolute; background: #8F8F8F; border-radius: 44px"></div>
+    <div class="Rectangle32" style="width: 241px; height: 42px; left: 330px; top: 845px; position: absolute; background: #8F8F8F; border-radius: 44px"></div>
+    <div class="Rectangle33" style="width: 241px; height: 42px; left: 330px; top: 668px; position: absolute; background: #8F8F8F; border-radius: 44px"></div>
+    <div class="Rectangle34" style="width: 241px; height: 42px; left: 330px; top: 491px; position: absolute; background: #8F8F8F; border-radius: 44px"></div>
+    <button class="button" style="left: 384px; top: 320px; " onclick="selectTemplate(1)">Template 1</button>
+    <button class="button" style="left: 384px; top: 499px; " onclick="selectTemplate(2)">Template 2</button>
+    <button class="button" style="left: 371px; top: 672px; " onclick="selectTemplate(3)">Template 3</button>
+    <button class="button" style="left: 384px; top: 850px; " onclick="selectTemplate(4)">Template 4</button>
+    
+
+
+
+   <script type="module" src="main.js"> </script> 
+</body>
 </html>
