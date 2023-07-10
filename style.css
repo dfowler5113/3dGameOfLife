@@ -1,6 +1,13 @@
 canvas{
-  position: fixed;
-  top: 0;
-  left: 0;
+  position: absolute;
+  width: 513px; height: 682px; left: 839px; top: 234px;
+  border: 2px white solid;
+  z-index: 1;
+  overflow: auto;
+  display:block;
 
+}
+
+#grid {
+  margin-top: 20px;
 }
